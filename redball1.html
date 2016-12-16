@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+
+</script>
+<script type="text/javascript" src="https://storage.googleapis.com/ics-redball/redball.js"></script>
+
+<script type="text/javascript"></script>
+
+<script type="text/javascript">
+function sayhello (){
+           alert ('hello');
+          }
+function moveright(){	
+
+redball.left=redball.left +10 ;
+}
+function moveleft(){
+redball.left=redball.left -10 ;
+}
+
+function moveup(){
+redball.top=redball.top -10;
+}
+
+function movedown(){
+redball.top=redball.top + 10;
+}
+
+function movesquare(){
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+}
+
+function movetriangle(){
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+}
+function moveoctogon(){
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+moveright() +100;
+movedown() +100;
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft() +100;
+movedown() +100;
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup() +100;
+moveleft() +100;
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+moveup() +100;
+moveright() +100;
+}
+        </script>
+</head>
+<body>
+<button onclick="sayhello()"> wassup</button><br>
+<img id ="redball" src="http://storage.googleapis.com/ics-redball/redball.jpg"><br>
+<button onclick="moveright()"> move right </button><br>
+<button onclick="moveup()"> move up </button>
+<button onclick="moveleft()"> move left </button>
+<button onclick="movedown()"> move down </button>
+<button onclick="movesquare()">move square </button>
+<button onclick="movetriangle()"> move triangle </button>
+<button onclick="moveoctogon()"> move octogon </button>
+</body>
+</html>
